@@ -10,8 +10,17 @@
 }
 
 body {
+    /*I CREATED A PARALAX!!*/
     background-image: url(images/steve-johnson-YS0YJLU_h2k-unsplash-EDITED.jpg);
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contents {
