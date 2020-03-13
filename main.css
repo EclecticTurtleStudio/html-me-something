@@ -4,8 +4,14 @@
     src: url(fonts/SUBSCRIBER-Regular.otf);
 }
 
+@font-face {
+    font-family: Typewriter;
+    src: url(fonts/atwriter.ttf);
+}
+
 body {
     background-image: url(images/steve-johnson-YS0YJLU_h2k-unsplash-EDITED.jpg);
+    background-position: center;
 }
 
 #contents {
@@ -31,11 +37,34 @@ h1 {
     margin-right: auto;
 }
 
-img {
+h2, h3 {
+    font-family: Typewriter;
 }
+
+h3 {
+    font-size: 20px;
+    color: salmon;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
 
 .credit {
     display: block;
     width: 90px;
     margin-top: -30px;
+}
+
+footer {
+    text-align: center;
+}
+
+a.returnToTop {
+    text-decoration: none;
+    background-color: salmon;
+    padding: 5px 10px;
+    color: white;
 }
