@@ -16,7 +16,7 @@ body {
 
 #contents {
     background-color: white;
-    max-width: 1260px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -10px;
@@ -29,6 +29,12 @@ h1 {
     text-align: center;
     font-family: Subscriber;
     font-size: 80px;
+}
+
+#page-subtitle {
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 50px;
 }
 
 #featured-img {
