@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: Subscriber;
+    src: url(fonts/SUBSCRIBER-Regular.otf);
+}
+
+body {
+    background-image: url(images/steve-johnson-YS0YJLU_h2k-unsplash-EDITED.jpg);
+}
+
+#contents {
+    background-color: white;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    padding: 20px;
+    box-shadow: 0px 0px 25px grey;
+}
+
+h1 {
+    text-align: center;
+    font-family: Subscriber;
+    font-size: 80px;
+}
+
+#featured-img {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+}
+
+.credit {
+    display: block;
+    width: 90px;
+    margin-top: -30px;
+}
