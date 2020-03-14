@@ -30,7 +30,7 @@ body {
     margin-right: auto;
     margin-top: -10px;
     margin-bottom: -20px;
-    padding: 20px;
+    padding: 20px 50px 100px 50px;
     box-shadow: 0px 0px 25px grey;
 }
 
@@ -52,6 +52,22 @@ h1 {
     margin-right: auto;
 }
 
+.familytree {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.familytree img {
+    max-width: 900px;
+}
+
+.imgCaption {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
 h2, h3 {
     font-family: Typewriter;
 }
@@ -62,10 +78,14 @@ h3 {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
+blockquote {
+    width: 50%;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
 }
-
 
 .credit {
     display: block;
@@ -75,11 +95,13 @@ img {
 
 footer {
     text-align: center;
+    background-color: lightgreen;
+    margin: 0px -10px -10px -10px;
+    padding: 10px;
 }
 
 a.returnToTop {
     text-decoration: none;
-    background-color: salmon;
     padding: 5px 10px;
     color: white;
 }
